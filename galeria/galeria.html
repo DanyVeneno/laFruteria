@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.104.2" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../imagenes/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../imagenes/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../imagenes/favicon-16x16.png"
+    />
+    <link rel="manifest" href="imagenes/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="../imagenes/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#efefef" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>La Fruteria | Galeria</title>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.2/examples/masonry/"
+    />
+
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="galeria.css" rel="stylesheet" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, 0.1);
+        border: solid rgba(0, 0, 0, 0.15);
+        border-width: 1px 0;
+        box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+          inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container py-5">
+      <header class="mb-auto">
+        <div class="lostextos">
+          <h3 class="float-md-start mb-0">La Fruteria</h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a
+              class="nav-link fw-bold py-1 px-0 active"
+              aria-current="page"
+              href="../index.html"
+              id="lostextos"
+              >Inicio</a
+            >
+            <a
+              class="nav-link fw-bold py-1 px-0 active"
+              href="../nosotros/nosotros.html"
+              id="lostextos"
+              >Nosotros</a
+            >
+            <a
+              class="nav-link fw-bold py-1 px-0 active"
+              href="../producto/producto.html"
+              id="lostextos"
+              >Producto</a
+            >
+            <a class="nav-link fw-bold py-1 px-0 active"
+            id="lostextos" href="../servicios/servicios.html">Servicios</a>
+            <a
+              class="nav-link fw-bold py-1 px-0 active"
+              id="lostextos"
+              href="../galeria/galeria.html"
+              >Galeria</a
+            >
+            <a
+              class="nav-link fw-bold py-1 px-0 active"
+              id="lostextos"
+              href="#0"
+              >Blog</a
+            >
+            <a class="nav-link fw-bold py-1 px-0 active" 
+            id="lostextos"href="../contacto/contacto.html">Contacto</a>
+          </nav>
+        </div>
+      </header>
+
+      <hr class="my-5" />
+      <div class="row" data-masonry='{"percentPosition": true }'>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card text text-center p-3" id="vgbak2">
+            <figure class="mb-0">
+              <blockquote class="blockquote">
+                <p>
+                  A nivel mundial La India es el principal país productor de frutas y en verduras lo es China según el portal estadístico Aleman Statista.
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer mb-0 text-white">
+                El empleado <cite title="Source Title">del més</cite>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img
+              src="../imagenes/s1.jpg"
+              alt=""
+              class="bd-placeholder-img card-img-top img-fluid"
+            />
+
+            <div class="card-body">
+              <h5 class="card-title">Nuestra Bebida Verde</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusantium ea voluptas laudantium. Sint sequi corporis 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card text text-center p-3" id="vgbak3">
+            <figure class="mb-0">
+              <blockquote class="blockquote">
+                <p>
+                  El 50% de toda la comida desperdiciada anualmente en el mundo, corresponde a frutas y verduras.
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer mb-0 text-white">
+                El empleado <cite title="Source Title">del mes</cite>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="../imagenes/s2.jpg" class="card-img" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title">Nuestro tazón de fresas</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur enim dolorum excepturi ipsam tempore expedita adipisci. 
+              </p>
+              <p class="card-text">
+                <small class="text-muted">El producto más vendidio.</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="../imagenes/s3.jpg" class="card-img" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title">Nuestra bebida Verde/Amarillo</h5>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet veniam eos ullam? In omnis nihil nulla, numquam veniam hic 
+              </p>
+              <p class="card-text">
+                <small class="text-muted">La bebida más nutriente.</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="../imagenes/s4.jpg" class="card-img" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title">La Naranja</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quam neque cum natus eligendi, rem aliquid deserunt 
+              </p>
+              <p class="card-text">
+                <small class="text-muted">La más pedida por en fines de semana.</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card text text-center p-3" id="vgbak">
+            <figure class="mb-0">
+              <blockquote class="blockquote">
+                <p>
+                  Las frutas más consumidas en el mundo son el tomate, seguido de los plátanos y la manzana, pero estos dos últimos, lamentablemente registran como alimentos en peligros de extinción.
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer mb-0 text-white">
+                Danny veneno <cite title="Source Title">Empleado del més</cite>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="../imagenes/s5.jpg" class="card-img" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title">El Tazón y bebida Fresa</h5>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis voluptates quas accusantium incidunt adipisci ducimus! Aut 
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Lomás pedido en primavera</small>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="../imagenes/s6.jpg" class="card-img" alt="..." />
+          </div>
+        </div>
+
+        <!--checkhere-->
+        <div class="card text-bg-dark">
+          <img src="../imagenes/s7.jpg" class="card-img img-fluid" alt="..." />
+          <div class="card-img-overlay">
+            <h3 class="card-title">Postre Fresa/Chocolate</h3>
+            <p class="card-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus natus nemo architecto reiciendis sunt ipsum officiis temporibus, optio saepe officia quia recusandae quos debitis ipsa excepturi, iure impedit atque odio?
+            </p>
+            <p class="card-text"><small>Danny Veneno lo recomienda</small></p>
+          </div>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="row" data-masonry='{"percentPosition": true }'>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card text text-center p-3" id="vgbak2">
+            <figure class="mb-0">
+              <blockquote class="blockquote">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officiis iure, enim quibusdam .
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer mb-0 text-white">
+                Danny Veneno <cite title="Source Title">Empleado del més</cite>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img
+              src="../imagenes/s1.jpg"
+              alt=""
+              class="bd-placeholder-img card-img-top img-fluid"
+            />
+
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum dolor sit amet consectetur. </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, distinctio veritatis .
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card text text-center p-3" id="vgbak3">
+            <figure class="mb-0">
+              <blockquote class="blockquote">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa .
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer mb-0 text-white">
+                Danny veneno <cite title="Source Title">Empleado del més</cite>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="../imagenes/s2.jpg" class="card-img" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title">Lorem, ipsum dolor sit amet .</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia corporis, dolor quidem eaque consectetur fugit doloribus recusandae rem magni numquam culpa omnis ipsa corrupti earum nobis nihil possimus architecto reiciendis!
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Danny veneno, empleado del més</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="../imagenes/s3.jpg" class="card-img" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam odit mollitia repellendus fuga quasi vero impedit provident minima, eum veritatis maiores quis magni illum aliquam vitae. Alias, doloremque quia. Optio!
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Danny veneno, empleado del més</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="../imagenes/s4.jpg" class="card-img" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum dolor, sit amet.</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At ullam voluptate inventore iusto ipsum recusandae, pariatur, facilis, vel corrupti quibusdam doloremque facere libero tempore expedita magnam blanditiis? Enim, ut cumque!
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Danny veneno, empleado del més</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card text text-center p-3" id="vgbak">
+            <figure class="mb-0">
+              <blockquote class="blockquote">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta accusantium libero consectetur dolorum! 
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer mb-0 text-white">
+                Danny veneno, <cite title="Source Title">empleado del més</cite>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="../imagenes/s5.jpg" class="card-img" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum dolor sit amet </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio id iure voluptas rem placeat recusandae deserunt. Eveniet quae illo temporibus 
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Danny veneno, empleado del més</small>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="../imagenes/s6.jpg" class="card-img" alt="..." />
+          </div>
+        </div>
+
+        <!--checkhere-->
+        <div class="card text-bg-dark">
+          <img src="../imagenes/s11.jpg" class="card-img img-fluid" alt="..." />
+          <div class="card-img-overlay">
+            <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi provident placeat nobis et cum esse voluptatibus, eius, dolorem vero delectus nisi. Dolor aut tempore in architecto libero adipisci qui tempora
+            </p>
+            <p class="card-text"><small>Danny veneno, empleado del més</small></p>
+          </div>
+        </div>
+      </div>
+
+      
+      
+        <!--checkhere-->
+        
+      </div>
+
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-muted">Facebook</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-muted">Instagram</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-muted">Youtube</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-muted">Tiktok</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-muted">Podcast</a>
+            </li>
+          </ul>
+          <p class="text-center text-muted">&copy; 2023 @juanitovenenoestudio</p>
+        </footer>
+      </div>
+    </main>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script
+      async
+      src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+      integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
