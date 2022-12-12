@@ -77,3 +77,7 @@ body {
   );
   border: transparent;
 }
+footer {
+  background-color: rgb(36, 36, 36);
+  color: #efefef;
+}
