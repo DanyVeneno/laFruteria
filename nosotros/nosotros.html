@@ -152,18 +152,16 @@
                   >Contacto</a
                 >
               </li>
-
-              <div class="form-check form-switch">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="checkbox"
-                  onClick="setDarkMode()"
-                />
-                <label class="form-check-label" for="checkbox"
-                  >Modo Oscuro</label
-                >
-              </div>
+              <li>
+                <div class="toggle-container">
+                  <input type="checkbox" id="switch" name="theme" /><label
+                    for="switch"
+                    style="color: #efefef"
+                    >ModoNocturno</label
+                  >
+                  <!--<h6 style="color: #efefef">ModoNocturno</h6>-->
+                </div>
+              </li>
             </ul>
           </div>
         </div>
@@ -417,7 +415,9 @@
               <a href="#" class="nav-link px-2 text-muted">Podcast</a>
             </li>
           </ul>
-          <p class="text-center text-muted">&copy; 2023 @juanitovenenoestudio</p>
+          <p class="text-center text-muted">
+            &copy; 2023 @juanitovenenoestudio
+          </p>
         </footer>
       </div>
     </main>
