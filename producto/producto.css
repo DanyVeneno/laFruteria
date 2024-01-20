@@ -83,3 +83,23 @@ html.transition *:after {
   -webkit-transition-delay: 0 !important;
   transition-delay: 0 !important;
 }
+
+#our {
+  color: #e94c4d;
+}
+.lead {
+  color: #e94c4d;
+}
+#b1 {
+  color: #e94c4d;
+}
+#b2 {
+  color: #e94c4d;
+}
+main {
+  background-image: url(../imagenes/destinos.jpg);
+  background-image: no-repeat;
+  background-position: center;
+  background-size: auto;
+  background-attachment: fixed;
+}

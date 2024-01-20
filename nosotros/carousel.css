@@ -5,8 +5,11 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #757575;
+  color: #e94c4d;
   background-color: var(--bg);
+}
+span {
+  color: #e94c4d;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -41,6 +44,7 @@ body {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
 }
+
 /* rtl:end:ignore */
 
 /* Featurettes
@@ -103,9 +107,9 @@ body {
   -moz-transition: transform 1s;
   -ms-transition: transform 1s;
   -o-transition: transform 1s;
-  box-shadow: 1px 9px 16px -2px rgba(247, 121, 121, 0.75);
+  box-shadow: 1px 9px 16px -2px rgba(248, 80, 80, 0.75);
   -webkit-box-shadow: 1px 9px 16px -2px rgba(247, 121, 121, 0.75);
-  -moz-box-shadow: 1px 9px 16px -2px rgba(247, 121, 121, 0.75);
+  -moz-box-shadow: 1px 9px 16px -2px rgba(248, 197, 29, 0.75);
 }
 
 .showpic2 {
@@ -131,9 +135,9 @@ body {
   -moz-transition: transform 1s;
   -ms-transition: transform 1s;
   -o-transition: transform 1s;
-  box-shadow: 1px 9px 16px -2px rgba(247, 121, 121, 0.75);
+  box-shadow: 1px 9px 16px -2px rgba(252, 116, 98, 0.75);
   -webkit-box-shadow: 1px 9px 16px -2px rgba(247, 121, 121, 0.75);
-  -moz-box-shadow: 1px 9px 16px -2px rgba(247, 121, 121, 0.75);
+  -moz-box-shadow: 1px 9px 16px -2px rgba(248, 197, 29, 0.75);
 }
 .showpic3 {
   /*border: blue dashed 2px;*/
@@ -158,12 +162,12 @@ body {
   -moz-transition: transform 1s;
   -ms-transition: transform 1s;
   -o-transition: transform 1s;
-  box-shadow: 1px 9px 16px -2px rgba(247, 121, 121, 0.75);
-  -webkit-box-shadow: 1px 9px 16px -2px rgba(247, 121, 121, 0.75);
-  -moz-box-shadow: 1px 9px 16px -2px rgba(247, 121, 121, 0.75);
+  box-shadow: 1px 9px 16px -2px rgba(252, 198, 98, 0.75);
+  -webkit-box-shadow: 1px 9px 16px -2px rgba(247, 207, 121, 0.75);
+  -moz-box-shadow: 1px 9px 16px -2px rgba(248, 197, 29, 0.75);
 }
 #pikhtext {
-  color: rgb(110, 119, 126);
+  color: rgb(255, 79, 79);
 }
 #sombra {
   text-shadow: 1px 1px 2px rgb(39, 39, 39);
@@ -190,7 +194,13 @@ html {
   display:grid;
   align-items: center;
   justify-items: center;*/
-  --bg: #efefef;
+  background-image: url(../imagenes/camp.png);
+  background-image: no-repeat;
+  background-position: center;
+  background-size: auto;
+  background-attachment: fixed;
+
+  /*--bg: #efefef;*/
   --bg-panel: #d8d7d7;
   --color-heading: rgb(217, 248, 80);
   --color-text: #161616;
@@ -199,7 +209,7 @@ html[data-theme="dark"] {
   --bg: #18191a;
   --bg-panel: #434343;
   --color-headings: rgb(175, 248, 80);
-  --color-text: #808080;
+  --color-text: #e94c4d;
 }
 
 input[type="checkbox"] {
@@ -207,7 +217,12 @@ input[type="checkbox"] {
   width: 0;
   visibility: hidden;
 }
-
+main {
+  background-image: url(../imagenes/camp.png);
+  background: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 label {
   cursor: pointer;
   text-indent: -9999px;
@@ -255,3 +270,10 @@ html.transition *:after {
   -webkit-transition-delay: 0 !important;
   transition-delay: 0 !important;
 }
+/* #mark {
+  position: relative;
+  background-image: url(../imagenes/camp.png);
+  background: no-repeat;
+  background-position: center;
+  background-size: cover;
+} */
